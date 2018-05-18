@@ -19,7 +19,7 @@ body{
 iframe{
     position: absolute;
     left: 50%;
-    margin-left: -200px;
+    margin-left: -250px;
     top: 50%;
     margin-top: -50px;
 }
