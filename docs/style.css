@@ -6,10 +6,6 @@ body{
     transition: background-image 0.2s linear;
 }
 
-main{
-    display: none;
-}
-
 #btn i{
     color: white;
     width: 100%;
