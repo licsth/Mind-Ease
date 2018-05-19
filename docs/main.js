@@ -1,7 +1,7 @@
 var body = document.getElementById("body");
 
 var photos = ['url(photos/danis-lou-361403-unsplash.jpg)', 'url(photos/johannes-plenio-262531-unsplash.jpg)', 'url(photos/aleksandr-eremin-237189-unsplash.jpg)', 'url(photos/artisanalphoto-530247-unsplash.jpg)', 'url(photos/kate-tandy-1579-unsplash.jpg)'];
-body.style.backgroundImage = photos[Math.round(Math.random() * photos.length)];
+body.style.backgroundImage = photos[Math.floor(Math.random() * photos.length)];
 
 var activeSong;
 //Plays the song. Just pass the id of the audio element.
