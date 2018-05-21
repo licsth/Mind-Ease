@@ -3,7 +3,8 @@
 body{
     margin: 0;
     background-size: cover;
-    transition: background-image 0.2s linear;
+    overflow: hidden;
+    background-position: center;
 }
 
 #btn i{
